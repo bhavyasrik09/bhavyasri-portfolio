@@ -1,6 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
     emailjs.init('X3gPIx0bTp03_BKdU');
 
+    const navToggle = document.querySelector('.nav-toggle');
+    const siteHeader = document.querySelector('.site-header');
+    const nav = document.querySelector('.site-nav');
+
+    if (navToggle && siteHeader && nav) {
+        navToggle.addEventListener('click', function () {
+            const expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', String(!expanded));
+            siteHeader.classList.toggle('nav-open');
+        });
+    }
+
     const form = document.getElementById('contact-form');
     const feedback = document.getElementById('form-feedback');
 
