@@ -6,12 +6,12 @@
     --bg: #ffffff;
     --surface: #f6fbf8;
     --lavender: #dff7ea;
-    --lavender-deep: #0a8a4a;
+    --lavender-deep: #075b3d;
     --muted: #35644f;
     --border: #dff3ea;
     --shadow: 0 24px 80px rgba(10, 120, 70, 0.09);
-    --accent-start: #28c76f;
-    --accent-end: #0ab06c;
+    --accent-start: #16834b;
+    --accent-end: #075b3d;
     --glass: rgba(255,255,255,0.72);
     --glass-2: rgba(255,255,255,0.92);
 }
